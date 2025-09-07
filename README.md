@@ -65,8 +65,6 @@ Proje aşağıdaki sayfalardan oluşur:
 
 ## 📁 Proje Yapısı
 
-## 📁 Proje Yapısı
-
 ```bash
 
 src/
