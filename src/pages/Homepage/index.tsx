@@ -121,12 +121,6 @@ const Homepage = () => {
             >
               <h3 className="font-semibold text-lg mb-1">{user.name}</h3>
               <p className="text-gray-600 text-sm mb-3">{user.email}</p>
-              <Link
-                to={`/users/${user.id}`}
-                className="text-blue-600 hover:underline text-sm font-medium"
-              >
-                Profili Gör →
-              </Link>
             </div>
           ))}
         </div>
