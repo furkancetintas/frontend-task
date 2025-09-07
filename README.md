@@ -64,22 +64,28 @@ Proje aşağıdaki sayfalardan oluşur:
 | ℹ️ **Proje Hakkında** | Projenin kısa açıklaması ve özellikler sayfası ve kullanılan teknolojilerin bilgisi |
 
 ## 📁 Proje Yapısı
+
+## 📁 Proje Yapısı
+
+```bash
+
 src/
-├── assets/ # Görseller ve medya
-├── components/ # Ortak bileşenler
-│ ├── Footer/
-│ ├── Navbar/
-│ ├── PostForm/
-│ └── UserForm/
-├── pages/ # Sayfa bileşenleri
-│ ├── About/
-│ ├── Homepage/
-│ ├── Posts/
-│ └── Users/
-├── services/ # API servisleri
-│ └── api.ts
-├── App.tsx # Uygulama yapısı ve rotalar
-└── App.css # Global CSS (Tailwind)
+├── assets/             # Görseller ve medya dosyaları
+├── components/         # Ortak (reusable) bileşenler
+│   ├── Footer/         # Alt bilgi bileşeni
+│   ├── Navbar/         # Navigasyon menüsü
+│   ├── PostForm/       # Gönderi oluşturma/güncelleme formu
+│   └── UserForm/       # Kullanıcı oluşturma/güncelleme formu
+├── pages/              # Sayfa bileşenleri
+│   ├── About/          # Proje hakkında sayfası
+│   ├── Homepage/       # Gösterge paneli / ana sayfa
+│   ├── Posts/          # Gönderi listeleme ve yönetim sayfası
+│   └── Users/          # Kullanıcı listeleme ve yönetim sayfası
+├── services/           # API işlemleri ve dış veri bağlantıları
+│   └── api.ts          # JSONPlaceholder API entegrasyonu
+├── App.tsx             # Ana uygulama bileşeni ve rotalar
+└── App.css             # Global CSS (Tailwind base stilleri)
+
 
 ---
 
